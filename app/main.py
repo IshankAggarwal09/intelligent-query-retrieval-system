@@ -6,7 +6,7 @@ import tempfile
 import logging
 from typing import Optional
 from .models import QueryRequest, QueryResponse, Domain, DocumentMetadata
-from services.query_service import QueryService
+from .services.query_service import QueryService
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
