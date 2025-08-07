@@ -5,7 +5,7 @@ import os
 import tempfile
 import logging
 from typing import Optional
-from models import QueryRequest, QueryResponse, Domain, DocumentMetadata
+from .models import QueryRequest, QueryResponse, Domain, DocumentMetadata
 from services.query_service import QueryService
 
 # Configure logging
