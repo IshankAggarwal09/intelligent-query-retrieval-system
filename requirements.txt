@@ -17,3 +17,4 @@ sentence-transformers
 numpy
 pandas
 python-jose[cryptography]
+streamlit
