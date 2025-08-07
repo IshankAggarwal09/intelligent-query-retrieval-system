@@ -3,6 +3,7 @@ fastapi
 uvicorn
 python-multipart
 pydantic
+pydantic-settings
 motor
 pymongo
 pinecone-client
