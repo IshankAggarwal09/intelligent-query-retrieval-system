@@ -1,15 +1,17 @@
 services:
   - type: web
-    name: intelligent-query-system
+    name: intelligent-query-system-hybrid
     env: python
     region: oregon
     plan: starter
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    startCommand: python start.py
     envVars:
+      - key: PORT
+        value: 8000
       - key: GEMINI_API_KEY
         sync: false
-      - key: PINECONE_API_KEY  
+      - key: PINECONE_API_KEY
         sync: false
       - key: MONGODB_URI
         sync: false
@@ -19,3 +21,4 @@ services:
         value: document-embeddings
       - key: MONGODB_DATABASE
         value: intelligent_query_system
+    healthCheckPath: /health
