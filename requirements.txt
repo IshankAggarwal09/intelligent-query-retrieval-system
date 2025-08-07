@@ -1,0 +1,18 @@
+# requirements.txt content
+fastapi
+uvicorn
+python-multipart
+pydantic
+motor
+pymongo
+pinecone-client
+google-generativeai
+pypdf2
+python-docx
+email-reply-parser
+langchain
+langchain-text-splitters
+sentence-transformers
+numpy
+pandas
+python-jose[cryptography]
