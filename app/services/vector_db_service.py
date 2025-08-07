@@ -2,7 +2,7 @@
 from pinecone import Pinecone, ServerlessSpec  # Updated import
 from typing import List, Dict, Any, Tuple
 import logging
-from config import settings
+from ..config import settings
 from ..models import DocumentChunk, RetrievalResult
 
 class VectorDBService:

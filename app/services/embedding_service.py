@@ -3,7 +3,7 @@ import google.generativeai as genai
 from typing import List, Dict, Any
 import numpy as np
 import logging
-from config import settings
+from ..config import settings
 
 class EmbeddingService:
     def __init__(self):

@@ -3,7 +3,7 @@ import google.generativeai as genai
 from typing import List, Dict, Any
 import json
 import logging
-from config import settings
+from ..config import settings
 from ..models import RetrievalResult, DecisionRationale
 
 class LLMService:

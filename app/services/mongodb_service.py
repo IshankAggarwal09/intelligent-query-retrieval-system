@@ -3,7 +3,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from typing import List, Dict, Any, Optional
 import logging
 from datetime import datetime
-from config import settings
+from ..config import settings
 from ..models import DocumentMetadata, DocumentChunk
 
 class MongoDBService:
