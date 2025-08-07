@@ -4,7 +4,7 @@ import hashlib
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 import logging
-from models import QueryRequest, QueryResponse, DocumentMetadata, DocumentChunk, Domain, DecisionRationale
+from ..models import QueryRequest, QueryResponse, DocumentMetadata, DocumentChunk, Domain, DecisionRationale
 from .document_processor import DocumentProcessor
 from .embedding_service import EmbeddingService
 from .vector_db_service import VectorDBService
