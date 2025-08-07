@@ -4,7 +4,7 @@ from typing import List, Dict, Any, Optional
 import logging
 from datetime import datetime
 from config import settings
-from models import DocumentMetadata, DocumentChunk
+from ..models import DocumentMetadata, DocumentChunk
 
 class MongoDBService:
     def __init__(self):

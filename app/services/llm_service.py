@@ -4,7 +4,7 @@ from typing import List, Dict, Any
 import json
 import logging
 from config import settings
-from models import RetrievalResult, DecisionRationale
+from ..models import RetrievalResult, DecisionRationale
 
 class LLMService:
     def __init__(self):

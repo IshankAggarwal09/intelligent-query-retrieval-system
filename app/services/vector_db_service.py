@@ -3,7 +3,7 @@ from pinecone import Pinecone, ServerlessSpec  # Updated import
 from typing import List, Dict, Any, Tuple
 import logging
 from config import settings
-from models import DocumentChunk, RetrievalResult
+from ..models import DocumentChunk, RetrievalResult
 
 class VectorDBService:
     def __init__(self):

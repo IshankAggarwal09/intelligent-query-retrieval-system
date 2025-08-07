@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 from typing import List, Dict, Any
 import hashlib
 import logging
-from models import DocumentChunk
+from ..models import DocumentChunk
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 class DocumentProcessor:
